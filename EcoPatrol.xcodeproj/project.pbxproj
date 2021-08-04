@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA6AF8726BAF5F400558A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */; };
+		BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */; };
+		BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8A26BAF5F400558A01 /* ViewController.swift */; };
+		BDA6AF8E26BAF5F400558A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA6AF8C26BAF5F400558A01 /* Main.storyboard */; };
+		BDA6AF9126BAF5F400558A01 /* EcoPatrol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8F26BAF5F400558A01 /* EcoPatrol.xcdatamodeld */; };
+		BDA6AF9326BAF5F500558A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA6AF9226BAF5F500558A01 /* Assets.xcassets */; };
+		BDA6AF9626BAF5F500558A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA6AF9426BAF5F500558A01 /* LaunchScreen.storyboard */; };
+		BDA6AFA126BAF5F600558A01 /* EcoPatrolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFA026BAF5F600558A01 /* EcoPatrolTests.swift */; };
+		BDA6AFAC26BAF5F600558A01 /* EcoPatrolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFAB26BAF5F600558A01 /* EcoPatrolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDA6AF9D26BAF5F600558A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA6AF7B26BAF5F400558A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA6AF8226BAF5F400558A01;
+			remoteInfo = EcoPatrol;
+		};
+		BDA6AFA826BAF5F600558A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA6AF7B26BAF5F400558A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA6AF8226BAF5F400558A01;
+			remoteInfo = EcoPatrol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDA6AF8326BAF5F400558A01 /* EcoPatrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoPatrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDA6AF8A26BAF5F400558A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDA6AF8D26BAF5F400558A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA6AF9026BAF5F400558A01 /* EcoPatrol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoPatrol.xcdatamodel; sourceTree = "<group>"; };
+		BDA6AF9226BAF5F500558A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA6AF9526BAF5F500558A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA6AF9726BAF5F500558A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA6AF9C26BAF5F600558A01 /* EcoPatrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoPatrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6AFA026BAF5F600558A01 /* EcoPatrolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoPatrolTests.swift; sourceTree = "<group>"; };
+		BDA6AFA226BAF5F600558A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA6AFA726BAF5F600558A01 /* EcoPatrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoPatrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6AFAB26BAF5F600558A01 /* EcoPatrolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoPatrolUITests.swift; sourceTree = "<group>"; };
+		BDA6AFAD26BAF5F600558A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA6AF8026BAF5F400558A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6AF9926BAF5F600558A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6AFA426BAF5F600558A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA6AF7A26BAF5F400558A01 = {
+			isa = PBXGroup;
+			children = (
+				BDA6AF8526BAF5F400558A01 /* EcoPatrol */,
+				BDA6AF9F26BAF5F600558A01 /* EcoPatrolTests */,
+				BDA6AFAA26BAF5F600558A01 /* EcoPatrolUITests */,
+				BDA6AF8426BAF5F400558A01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA6AF8426BAF5F400558A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6AF8326BAF5F400558A01 /* EcoPatrol.app */,
+				BDA6AF9C26BAF5F600558A01 /* EcoPatrolTests.xctest */,
+				BDA6AFA726BAF5F600558A01 /* EcoPatrolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA6AF8526BAF5F400558A01 /* EcoPatrol */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */,
+				BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */,
+				BDA6AF8A26BAF5F400558A01 /* ViewController.swift */,
+				BDA6AF8C26BAF5F400558A01 /* Main.storyboard */,
+				BDA6AF9226BAF5F500558A01 /* Assets.xcassets */,
+				BDA6AF9426BAF5F500558A01 /* LaunchScreen.storyboard */,
+				BDA6AF9726BAF5F500558A01 /* Info.plist */,
+				BDA6AF8F26BAF5F400558A01 /* EcoPatrol.xcdatamodeld */,
+			);
+			path = EcoPatrol;
+			sourceTree = "<group>";
+		};
+		BDA6AF9F26BAF5F600558A01 /* EcoPatrolTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6AFA026BAF5F600558A01 /* EcoPatrolTests.swift */,
+				BDA6AFA226BAF5F600558A01 /* Info.plist */,
+			);
+			path = EcoPatrolTests;
+			sourceTree = "<group>";
+		};
+		BDA6AFAA26BAF5F600558A01 /* EcoPatrolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6AFAB26BAF5F600558A01 /* EcoPatrolUITests.swift */,
+				BDA6AFAD26BAF5F600558A01 /* Info.plist */,
+			);
+			path = EcoPatrolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA6AF8226BAF5F400558A01 /* EcoPatrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA6AFB026BAF5F600558A01 /* Build configuration list for PBXNativeTarget "EcoPatrol" */;
+			buildPhases = (
+				BDA6AF7F26BAF5F400558A01 /* Sources */,
+				BDA6AF8026BAF5F400558A01 /* Frameworks */,
+				BDA6AF8126BAF5F400558A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoPatrol;
+			productName = EcoPatrol;
+			productReference = BDA6AF8326BAF5F400558A01 /* EcoPatrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA6AF9B26BAF5F600558A01 /* EcoPatrolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA6AFB326BAF5F600558A01 /* Build configuration list for PBXNativeTarget "EcoPatrolTests" */;
+			buildPhases = (
+				BDA6AF9826BAF5F600558A01 /* Sources */,
+				BDA6AF9926BAF5F600558A01 /* Frameworks */,
+				BDA6AF9A26BAF5F600558A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA6AF9E26BAF5F600558A01 /* PBXTargetDependency */,
+			);
+			name = EcoPatrolTests;
+			productName = EcoPatrolTests;
+			productReference = BDA6AF9C26BAF5F600558A01 /* EcoPatrolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA6AFA626BAF5F600558A01 /* EcoPatrolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA6AFB626BAF5F600558A01 /* Build configuration list for PBXNativeTarget "EcoPatrolUITests" */;
+			buildPhases = (
+				BDA6AFA326BAF5F600558A01 /* Sources */,
+				BDA6AFA426BAF5F600558A01 /* Frameworks */,
+				BDA6AFA526BAF5F600558A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA6AFA926BAF5F600558A01 /* PBXTargetDependency */,
+			);
+			name = EcoPatrolUITests;
+			productName = EcoPatrolUITests;
+			productReference = BDA6AFA726BAF5F600558A01 /* EcoPatrolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA6AF7B26BAF5F400558A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BDA6AF8226BAF5F400558A01 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BDA6AF9B26BAF5F600558A01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BDA6AF8226BAF5F400558A01;
+					};
+					BDA6AFA626BAF5F600558A01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BDA6AF8226BAF5F400558A01;
+					};
+				};
+			};
+			buildConfigurationList = BDA6AF7E26BAF5F400558A01 /* Build configuration list for PBXProject "EcoPatrol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA6AF7A26BAF5F400558A01;
+			productRefGroup = BDA6AF8426BAF5F400558A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA6AF8226BAF5F400558A01 /* EcoPatrol */,
+				BDA6AF9B26BAF5F600558A01 /* EcoPatrolTests */,
+				BDA6AFA626BAF5F600558A01 /* EcoPatrolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA6AF8126BAF5F400558A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA6AF9626BAF5F500558A01 /* LaunchScreen.storyboard in Resources */,
+				BDA6AF9326BAF5F500558A01 /* Assets.xcassets in Resources */,
+				BDA6AF8E26BAF5F400558A01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6AF9A26BAF5F600558A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6AFA526BAF5F600558A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA6AF7F26BAF5F400558A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */,
+				BDA6AF8726BAF5F400558A01 /* AppDelegate.swift in Sources */,
+				BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */,
+				BDA6AF9126BAF5F400558A01 /* EcoPatrol.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6AF9826BAF5F600558A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA6AFA126BAF5F600558A01 /* EcoPatrolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6AFA326BAF5F600558A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA6AFAC26BAF5F600558A01 /* EcoPatrolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA6AF9E26BAF5F600558A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA6AF8226BAF5F400558A01 /* EcoPatrol */;
+			targetProxy = BDA6AF9D26BAF5F600558A01 /* PBXContainerItemProxy */;
+		};
+		BDA6AFA926BAF5F600558A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA6AF8226BAF5F400558A01 /* EcoPatrol */;
+			targetProxy = BDA6AFA826BAF5F600558A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA6AF8C26BAF5F400558A01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA6AF8D26BAF5F400558A01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA6AF9426BAF5F500558A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA6AF9526BAF5F500558A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA6AFAE26BAF5F600558A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDA6AFAF26BAF5F600558A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA6AFB126BAF5F600558A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M75TVH3J;
+				INFOPLIST_FILE = EcoPatrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChristaKulanda.EcoPatrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA6AFB226BAF5F600558A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M75TVH3J;
+				INFOPLIST_FILE = EcoPatrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChristaKulanda.EcoPatrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDA6AFB426BAF5F600558A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M75TVH3J;
+				INFOPLIST_FILE = EcoPatrolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChristaKulanda.EcoPatrolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoPatrol.app/EcoPatrol";
+			};
+			name = Debug;
+		};
+		BDA6AFB526BAF5F600558A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M75TVH3J;
+				INFOPLIST_FILE = EcoPatrolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChristaKulanda.EcoPatrolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoPatrol.app/EcoPatrol";
+			};
+			name = Release;
+		};
+		BDA6AFB726BAF5F600558A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M75TVH3J;
+				INFOPLIST_FILE = EcoPatrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChristaKulanda.EcoPatrolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoPatrol;
+			};
+			name = Debug;
+		};
+		BDA6AFB826BAF5F600558A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9M75TVH3J;
+				INFOPLIST_FILE = EcoPatrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChristaKulanda.EcoPatrolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoPatrol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA6AF7E26BAF5F400558A01 /* Build configuration list for PBXProject "EcoPatrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA6AFAE26BAF5F600558A01 /* Debug */,
+				BDA6AFAF26BAF5F600558A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA6AFB026BAF5F600558A01 /* Build configuration list for PBXNativeTarget "EcoPatrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA6AFB126BAF5F600558A01 /* Debug */,
+				BDA6AFB226BAF5F600558A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA6AFB326BAF5F600558A01 /* Build configuration list for PBXNativeTarget "EcoPatrolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA6AFB426BAF5F600558A01 /* Debug */,
+				BDA6AFB526BAF5F600558A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA6AFB626BAF5F600558A01 /* Build configuration list for PBXNativeTarget "EcoPatrolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA6AFB726BAF5F600558A01 /* Debug */,
+				BDA6AFB826BAF5F600558A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDA6AF8F26BAF5F400558A01 /* EcoPatrol.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDA6AF9026BAF5F400558A01 /* EcoPatrol.xcdatamodel */,
+			);
+			currentVersion = BDA6AF9026BAF5F400558A01 /* EcoPatrol.xcdatamodel */;
+			path = EcoPatrol.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDA6AF7B26BAF5F400558A01 /* Project object */;
+}
