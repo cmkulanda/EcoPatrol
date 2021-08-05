@@ -208,13 +208,8 @@
                                     <navigationItem title="✨EcoPatrol✨" id="ZX6-rV-9lx"/>
                                 </items>
                             </navigationBar>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oDD-4F-TEk">
-                                <rect key="frame" x="0.0" y="128" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qoY-8u-Hvw">
-                                <rect key="frame" x="33" y="203" width="348" height="201"/>
+                                <rect key="frame" x="33" y="137" width="348" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="FJY-Sq-nA2" id="osa-IA-zyJ"/>

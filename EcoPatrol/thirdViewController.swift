@@ -36,7 +36,7 @@ class thirdViewController: UIViewController {
     func checkLocationServices() {
         if CLLocationManager.locationServicesEnabled() {
             setupLocationManager()
-            //locationManagerDidChangeAuthorization(CLLocationManager)
+            locationManagerDidChangeAuthorization(locationManager)
         } else  {
             //Show alert letting the user know they have to turn this on.
         }
