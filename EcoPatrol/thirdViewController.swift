@@ -14,10 +14,11 @@ class thirdViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
+    let regionInMeters: Double = 10000
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        checkLocationServices()
     }
     
     func setupLocationManager() {
@@ -25,11 +26,17 @@ class thirdViewController: UIViewController {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
     
-    
+    func centerViewOnUserLocation() {
+        if let location = locationManager.location?.coordinate {
+            let region = MKCoordinateRegion.init(center: location, latitudinalMeters: regionInMeters, longitudinalMeters: regionInMeters)
+            mapView.setRegion(region, animated: true)
+        }
+    }
     
     func checkLocationServices() {
         if CLLocationManager.locationServicesEnabled() {
             setupLocationManager()
+            //locationManagerDidChangeAuthorization(CLLocationManager)
         } else  {
             //Show alert letting the user know they have to turn this on.
         }
@@ -39,7 +46,8 @@ class thirdViewController: UIViewController {
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         switch manager.authorizationStatus {
         case .authorizedWhenInUse:
-            break
+            mapView.showsUserLocation = true
+            centerViewOnUserLocation()
         case .denied:
             break
         case .notDetermined:
@@ -48,8 +56,9 @@ class thirdViewController: UIViewController {
             break
         case .authorizedAlways:
             break
+       
         @unknown default:
-            <#fatalError()#>
+            fatalError()
         }
     }
 }
