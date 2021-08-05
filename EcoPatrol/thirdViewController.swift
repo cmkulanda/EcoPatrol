@@ -14,20 +14,19 @@ class thirdViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
-    let regionInMeters: Double = 15000
+    let regionInMeters: Double = 10000
     
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationServices()
-        // from new youtube video
-        /*let annotation = MKPointAnnotation()
-        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.7900, longitude: 122.4073)
-        mapView.addAnnotation(annotation)*/
+        
     }
     
     func setupLocationManager() {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        //locationManager.distanceFilter = kCLLocationAccuracyNearestTenMeters
+        
     }
     
     func centerViewOnUserLocation() {
@@ -52,6 +51,7 @@ class thirdViewController: UIViewController {
         case .authorizedWhenInUse:
             mapView.showsUserLocation = true
             centerViewOnUserLocation()
+            locationManager.startUpdatingLocation()
         case .denied:
             break
         case .notDetermined:
@@ -74,10 +74,13 @@ class thirdViewController: UIViewController {
 
 extension thirdViewController: CLLocationManagerDelegate {
     func locationManager(_ manager:CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        //We'll be back
+        guard let location = locations.last else { return }
+        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+        let region = MKCoordinateRegion.init(center: center, latitudinalMeters: regionInMeters, longitudinalMeters: regionInMeters)
+        mapView.setRegion(region, animated: true)
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        //We'll be back
+        locationManagerDidChangeAuthorization(locationManager)
     }
 }
