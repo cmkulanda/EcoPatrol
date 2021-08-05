@@ -17,6 +17,8 @@
 		BDA6AF9626BAF5F500558A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA6AF9426BAF5F500558A01 /* LaunchScreen.storyboard */; };
 		BDA6AFA126BAF5F600558A01 /* EcoPatrolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFA026BAF5F600558A01 /* EcoPatrolTests.swift */; };
 		BDA6AFAC26BAF5F600558A01 /* EcoPatrolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFAB26BAF5F600558A01 /* EcoPatrolUITests.swift */; };
+		BDA6AFC026BBA73300558A01 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFBF26BBA73300558A01 /* thirdViewController.swift */; };
+		BDA6AFC226BBA76D00558A01 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC126BBA76D00558A01 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		BDA6AFA726BAF5F600558A01 /* EcoPatrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoPatrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA6AFAB26BAF5F600558A01 /* EcoPatrolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoPatrolUITests.swift; sourceTree = "<group>"; };
 		BDA6AFAD26BAF5F600558A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA6AFBF26BBA73300558A01 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		BDA6AFC126BBA76D00558A01 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,9 @@
 				BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */,
 				BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */,
 				BDA6AF8A26BAF5F400558A01 /* ViewController.swift */,
+				BDA6AFC126BBA76D00558A01 /* secondViewController.swift */,
 				BDA6AF8C26BAF5F400558A01 /* Main.storyboard */,
+				BDA6AFBF26BBA73300558A01 /* thirdViewController.swift */,
 				BDA6AF9226BAF5F500558A01 /* Assets.xcassets */,
 				BDA6AF9426BAF5F500558A01 /* LaunchScreen.storyboard */,
 				BDA6AF9726BAF5F500558A01 /* Info.plist */,
@@ -265,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5C181526BB1EE30001E8CE /* FirstViewController.swift in Sources */,
+				BDA6AFC226BBA76D00558A01 /* secondViewController.swift in Sources */,
 				BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */,
+				BDA6AFC026BBA73300558A01 /* thirdViewController.swift in Sources */,
 				BDA6AF8726BAF5F400558A01 /* AppDelegate.swift in Sources */,
 				BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */,
 				BDA6AF9126BAF5F400558A01 /* EcoPatrol.xcdatamodeld in Sources */,
