@@ -21,10 +21,21 @@ class thirdViewController: UIViewController {
         checkLocationServices()
         
         //experimental code
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.78995, longitude: -122.40)
-        annotation.title = "Purple Loosestrife"
-        mapView.addAnnotation(annotation)
+        let firstAnnotation = MKPointAnnotation()
+        firstAnnotation.coordinate = CLLocationCoordinate2D(latitude: 37.78995, longitude: -122.40)
+        firstAnnotation.title = "Purple Loosestrife"
+        mapView.addAnnotation(firstAnnotation)
+        
+        let secondAnnotation = MKPointAnnotation()
+        secondAnnotation.coordinate = CLLocationCoordinate2D(latitude:37.7906, longitude: -122.4065)
+        secondAnnotation.title = "Kudzu"
+        mapView.addAnnotation(secondAnnotation)
+        
+        let thirdAnnotation = MKPointAnnotation()
+        thirdAnnotation.coordinate = CLLocationCoordinate2D( latitude: 37.7882, longitude: -122.4031)
+        thirdAnnotation.title = "Japanese Barberry"
+        mapView.addAnnotation(thirdAnnotation)
+        
     }
     
   
