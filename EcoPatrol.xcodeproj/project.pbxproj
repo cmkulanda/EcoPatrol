@@ -20,6 +20,8 @@
 		BDA6AFC026BBA73300558A01 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFBF26BBA73300558A01 /* thirdViewController.swift */; };
 		BDA6AFC226BBA76D00558A01 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC126BBA76D00558A01 /* secondViewController.swift */; };
 		BDA6AFC426BC52C500558A01 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC326BC52C500558A01 /* fourthViewController.swift */; };
+		BDA6AFC626BC73CE00558A01 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC526BC73CE00558A01 /* fifthViewController.swift */; };
+		BDA6AFC826BC742A00558A01 /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC726BC742A00558A01 /* sixthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		BDA6AFBF26BBA73300558A01 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		BDA6AFC126BBA76D00558A01 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		BDA6AFC326BC52C500558A01 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		BDA6AFC526BC73CE00558A01 /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		BDA6AFC726BC742A00558A01 /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		BDA6AF7A26BAF5F400558A01 = {
 			isa = PBXGroup;
 			children = (
+				BDA6AFC726BC742A00558A01 /* sixthViewController.swift */,
+				BDA6AFC526BC73CE00558A01 /* fifthViewController.swift */,
 				BDA6AFC326BC52C500558A01 /* fourthViewController.swift */,
 				BDA6AF8526BAF5F400558A01 /* EcoPatrol */,
 				BDA6AF9F26BAF5F600558A01 /* EcoPatrolTests */,
@@ -278,9 +284,11 @@
 				BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */,
 				BDA6AFC026BBA73300558A01 /* thirdViewController.swift in Sources */,
 				BDA6AFC426BC52C500558A01 /* fourthViewController.swift in Sources */,
+				BDA6AFC826BC742A00558A01 /* sixthViewController.swift in Sources */,
 				BDA6AF8726BAF5F400558A01 /* AppDelegate.swift in Sources */,
 				BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */,
 				BDA6AF9126BAF5F400558A01 /* EcoPatrol.xcdatamodeld in Sources */,
+				BDA6AFC626BC73CE00558A01 /* fifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
