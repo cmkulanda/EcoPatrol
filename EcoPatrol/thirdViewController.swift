@@ -20,12 +20,17 @@ class thirdViewController: UIViewController {
         super.viewDidLoad()
         checkLocationServices()
         
+        //experimental code
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.78995, longitude: -122.40)
+        annotation.title = "Purple Loosestrife"
+        mapView.addAnnotation(annotation)
     }
     
+  
     func setupLocationManager() {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        //locationManager.distanceFilter = kCLLocationAccuracyNearestTenMeters
         
     }
     
@@ -66,11 +71,6 @@ class thirdViewController: UIViewController {
         }
     }
 }
-
-
-
-
-
 
 extension thirdViewController: CLLocationManagerDelegate {
     func locationManager(_ manager:CLLocationManager, didUpdateLocations locations: [CLLocation]) {
