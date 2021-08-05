@@ -14,11 +14,15 @@ class thirdViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
-    let regionInMeters: Double = 10000
+    let regionInMeters: Double = 15000
     
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationServices()
+        // from new youtube video
+        /*let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.7900, longitude: 122.4073)
+        mapView.addAnnotation(annotation)*/
     }
     
     func setupLocationManager() {
