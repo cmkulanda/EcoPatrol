@@ -130,7 +130,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9fe-PZ-ehx"/>
-                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdV-8J-x1P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -209,7 +209,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LT7-Io-OPR"/>
-                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2yK-gp-vTA"/>
                 </viewController>
@@ -255,7 +255,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PQq-zN-TS8"/>
-                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="4c3-t3-rlf"/>
                 </viewController>
@@ -403,7 +403,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tpj-wX-NbP"/>
-                        <color key="backgroundColor" red="0.83529411764705885" green="0.85882352941176465" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.83529411764705885" green="0.85882352941176465" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ICY-mh-qLb"/>
                     <connections>
@@ -563,8 +563,9 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vmh-MS-8hp"/>
-                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.83529411764705885" green="0.85882352941176465" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="t4Y-qm-jhj"/>
                     <connections>
                         <outlet property="colors" destination="wTE-oJ-DSR" id="TNf-7j-OzA"/>
                         <outlet property="date" destination="scB-hX-Ba6" id="IAD-gg-KBi"/>
@@ -586,16 +587,51 @@
                     <view key="view" contentMode="scaleToFill" id="16f-5e-agG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="congrats on successfully submitting an invasive species sighting report! 🎉🎉" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ph-di-wd2">
+                                <rect key="frame" x="30" y="134" width="355" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.43921568630000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2m-I5-337">
+                                <rect key="frame" x="90" y="440" width="235" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60392156862745094" green="0.52549019607843139" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <state key="normal" title="  continue to home  ">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.82745098039999998" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="continueTapped:" destination="gLf-Dj-ktv" eventType="touchUpInside" id="t9J-oJ-mh0"/>
+                                    <segue destination="lD0-Q2-qTT" kind="show" id="on3-7c-3O3"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEK-jM-kP3">
+                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="✨EcoPatrol✨" id="xmE-l5-8nl"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4rM-eI-dHZ"/>
-                        <color key="backgroundColor" red="0.83529411760000005" green="0.85882352939999995" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.83529411764705885" green="0.85882352941176465" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="457-pA-oI9"/>
+                    <connections>
+                        <outlet property="congratsMessage" destination="4ph-di-wd2" id="ao1-Pn-lVL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WmX-iV-uzf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3406" y="151"/>
+            <point key="canvasLocation" x="3405.7971014492755" y="150.66964285714286"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="on3-7c-3O3"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Illustration_Berberis_vulgaris0" width="1434" height="2381"/>
     </resources>

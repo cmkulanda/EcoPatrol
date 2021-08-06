@@ -21,6 +21,9 @@ class thirdViewController: UIViewController {
         super.viewDidLoad()
         checkLocationServices()
         
+
+        
+        
         //experimental code
         let firstAnnotation = MKPointAnnotation()
         firstAnnotation.coordinate = CLLocationCoordinate2D(latitude: 37.78995, longitude: -122.40)
@@ -38,6 +41,11 @@ class thirdViewController: UIViewController {
         mapView.addAnnotation(thirdAnnotation)
         
     }
+    
+    
+    
+    
+    
     
   
     func setupLocationManager() {
