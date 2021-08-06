@@ -11,6 +11,7 @@
 		BD24DAF926BCE1520047B5D7 /* ninthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAF826BCE1520047B5D7 /* ninthViewController.swift */; };
 		BD24DAFB26BCEBFA0047B5D7 /* tenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAFA26BCEBFA0047B5D7 /* tenthViewController.swift */; };
 		BD24DAFD26BCF0020047B5D7 /* eleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAFC26BCF0020047B5D7 /* eleventhViewController.swift */; };
+		BD24DAFF26BCF97D0047B5D7 /* twelfthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAFE26BCF97D0047B5D7 /* twelfthViewController.swift */; };
 		BDA6AF8726BAF5F400558A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */; };
 		BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */; };
 		BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8A26BAF5F400558A01 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		BD24DAF826BCE1520047B5D7 /* ninthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninthViewController.swift; sourceTree = "<group>"; };
 		BD24DAFA26BCEBFA0047B5D7 /* tenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenthViewController.swift; sourceTree = "<group>"; };
 		BD24DAFC26BCF0020047B5D7 /* eleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleventhViewController.swift; sourceTree = "<group>"; };
+		BD24DAFE26BCF97D0047B5D7 /* twelfthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twelfthViewController.swift; sourceTree = "<group>"; };
 		BDA6AF8326BAF5F400558A01 /* EcoPatrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoPatrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				BDA6AF8A26BAF5F400558A01 /* ViewController.swift */,
 				BDA6AFC126BBA76D00558A01 /* secondViewController.swift */,
 				BDA6AF8C26BAF5F400558A01 /* Main.storyboard */,
+				BD24DAFE26BCF97D0047B5D7 /* twelfthViewController.swift */,
 				BD24DAFC26BCF0020047B5D7 /* eleventhViewController.swift */,
 				BD24DAFA26BCEBFA0047B5D7 /* tenthViewController.swift */,
 				BD24DAF826BCE1520047B5D7 /* ninthViewController.swift */,
@@ -297,6 +300,7 @@
 				6D5C181526BB1EE30001E8CE /* FirstViewController.swift in Sources */,
 				BDA6AFCC26BCC3B400558A01 /* eighthViewController.swift in Sources */,
 				BDA6AFC226BBA76D00558A01 /* secondViewController.swift in Sources */,
+				BD24DAFF26BCF97D0047B5D7 /* twelfthViewController.swift in Sources */,
 				BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */,
 				BD24DAFB26BCEBFA0047B5D7 /* tenthViewController.swift in Sources */,
 				BDA6AFC026BBA73300558A01 /* thirdViewController.swift in Sources */,

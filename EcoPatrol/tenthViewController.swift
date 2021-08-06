@@ -9,6 +9,14 @@ import UIKit
 
 class tenthViewController: UIViewController {
 
+    @IBOutlet weak var vines: UILabel!
+    @IBOutlet weak var imageOne: UIImageView!
+    @IBOutlet weak var bioOne: UILabel!
+    @IBOutlet weak var bioTwo: UILabel!
+    @IBOutlet weak var nameTwo: UILabel!
+    @IBOutlet weak var imageTwo: UIImageView!
+    @IBOutlet weak var bioThree: UILabel!
+    @IBOutlet weak var bioFour: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

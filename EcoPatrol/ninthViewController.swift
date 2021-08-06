@@ -9,6 +9,15 @@ import UIKit
 
 class ninthViewController: UIViewController {
 
+    @IBOutlet weak var aquatic: UILabel!
+    @IBOutlet weak var nameOne: UILabel!
+    @IBOutlet weak var imageOne: UIImageView!
+    @IBOutlet weak var bioOne: UILabel!
+    @IBOutlet weak var bioTwo: UILabel!
+    @IBOutlet weak var nameTwo: UILabel!
+    @IBOutlet weak var bioThree: UILabel!
+    @IBOutlet weak var bioFour: UILabel!
+    @IBOutlet weak var imageTwo: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

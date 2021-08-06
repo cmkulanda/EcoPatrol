@@ -9,21 +9,25 @@ import UIKit
 
 class sixthViewController: UIViewController {
 
+    @IBOutlet weak var invasiveSpecies101: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func treesShrubs(_ sender: UIButton) {
     }
-    */
-
+    
+    @IBAction func aquatic(_ sender: UIButton) {
+    }
+    
+     @IBAction func vines(_ sender: UIButton) {
+     }
+     
+    @IBAction func grasses(_ sender: UIButton) {
+    }
+    
+    @IBAction func forbs(_ sender: UIButton) {
+    }
 }

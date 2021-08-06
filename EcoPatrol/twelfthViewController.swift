@@ -1,23 +1,23 @@
 //
-//  seventhViewController.swift
+//  twelfthViewController.swift
 //  EcoPatrol
 //
-//  Created by Scholar on 8/5/21.
+//  Created by Scholar on 8/6/21.
 //
 
 import UIKit
 
-class seventhViewController: UIViewController {
+class twelfthViewController: UIViewController {
 
-    @IBOutlet weak var treesShrubs: UILabel!
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var forbs: UILabel!
+    @IBOutlet weak var nameOne: UILabel!
+    @IBOutlet weak var imageOne: UIImageView!
     @IBOutlet weak var bioOne: UILabel!
     @IBOutlet weak var bioTwo: UILabel!
     @IBOutlet weak var nameTwo: UILabel!
+    @IBOutlet weak var imageTwo: UIImageView!
     @IBOutlet weak var bioThree: UILabel!
     @IBOutlet weak var bioFour: UILabel!
-    @IBOutlet weak var imageOne: UIImageView!
-    @IBOutlet weak var imageTwo: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

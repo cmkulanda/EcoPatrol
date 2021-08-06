@@ -9,13 +9,18 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var letsGetStarted: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func reportSighting(_ sender: UIButton) {
+    }
+    
+    @IBAction func guides(_ sender: UIButton) {
+    }
     /*
     // MARK: - Navigation
 
