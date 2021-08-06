@@ -9,6 +9,13 @@ import UIKit
 
 class eleventhViewController: UIViewController {
 
+    @IBOutlet weak var grasses: UILabel!
+    @IBOutlet weak var nameOne: UILabel!
+    @IBOutlet weak var imageOne: UIImageView!
+    @IBOutlet weak var bioOne: UILabel!
+    @IBOutlet weak var nameTwo: UILabel!
+    @IBOutlet weak var imageTwo: UIImageView!
+    @IBOutlet weak var bioTwo: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

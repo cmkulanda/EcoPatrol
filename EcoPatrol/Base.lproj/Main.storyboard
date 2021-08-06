@@ -1127,6 +1127,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="HMI-Ns-bcc"/>
         <segue reference="on3-7c-3O3"/>
     </inferredMetricsTieBreakers>
     <resources>
