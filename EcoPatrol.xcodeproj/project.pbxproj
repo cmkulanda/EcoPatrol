@@ -23,6 +23,7 @@
 		BDA6AFC626BC73CE00558A01 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC526BC73CE00558A01 /* fifthViewController.swift */; };
 		BDA6AFC826BC742A00558A01 /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC726BC742A00558A01 /* sixthViewController.swift */; };
 		BDA6AFCA26BC76E900558A01 /* seventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFC926BC76E900558A01 /* seventhViewController.swift */; };
+		BDA6AFCC26BCC3B400558A01 /* eighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AFCB26BCC3B400558A01 /* eighthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BDA6AFC526BC73CE00558A01 /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 		BDA6AFC726BC742A00558A01 /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
 		BDA6AFC926BC76E900558A01 /* seventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seventhViewController.swift; sourceTree = "<group>"; };
+		BDA6AFCB26BCC3B400558A01 /* eighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eighthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		BDA6AF7A26BAF5F400558A01 = {
 			isa = PBXGroup;
 			children = (
+				BDA6AFCB26BCC3B400558A01 /* eighthViewController.swift */,
 				BDA6AFC926BC76E900558A01 /* seventhViewController.swift */,
 				BDA6AFC726BC742A00558A01 /* sixthViewController.swift */,
 				BDA6AFC526BC73CE00558A01 /* fifthViewController.swift */,
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5C181526BB1EE30001E8CE /* FirstViewController.swift in Sources */,
+				BDA6AFCC26BCC3B400558A01 /* eighthViewController.swift in Sources */,
 				BDA6AFC226BBA76D00558A01 /* secondViewController.swift in Sources */,
 				BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */,
 				BDA6AFC026BBA73300558A01 /* thirdViewController.swift in Sources */,
