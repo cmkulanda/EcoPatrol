@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>we need your photo library if you want to upload your pictures :)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>we need your camera if you want to take pictures :)</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>we need your location to locate invasive species in your area :)</string>
 	<key>CFBundleDevelopmentRegion</key>
