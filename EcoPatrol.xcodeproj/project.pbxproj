@@ -12,6 +12,8 @@
 		BD24DAFB26BCEBFA0047B5D7 /* tenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAFA26BCEBFA0047B5D7 /* tenthViewController.swift */; };
 		BD24DAFD26BCF0020047B5D7 /* eleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAFC26BCF0020047B5D7 /* eleventhViewController.swift */; };
 		BD24DAFF26BCF97D0047B5D7 /* twelfthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DAFE26BCF97D0047B5D7 /* twelfthViewController.swift */; };
+		BD24DB0126BD8B1A0047B5D7 /* thirteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DB0026BD8B1A0047B5D7 /* thirteenthViewController.swift */; };
+		BD24DB0326BD8CFC0047B5D7 /* fourteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DB0226BD8CFC0047B5D7 /* fourteenthViewController.swift */; };
 		BDA6AF8726BAF5F400558A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */; };
 		BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */; };
 		BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6AF8A26BAF5F400558A01 /* ViewController.swift */; };
@@ -53,6 +55,8 @@
 		BD24DAFA26BCEBFA0047B5D7 /* tenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenthViewController.swift; sourceTree = "<group>"; };
 		BD24DAFC26BCF0020047B5D7 /* eleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleventhViewController.swift; sourceTree = "<group>"; };
 		BD24DAFE26BCF97D0047B5D7 /* twelfthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twelfthViewController.swift; sourceTree = "<group>"; };
+		BD24DB0026BD8B1A0047B5D7 /* thirteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirteenthViewController.swift; sourceTree = "<group>"; };
+		BD24DB0226BD8CFC0047B5D7 /* fourteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourteenthViewController.swift; sourceTree = "<group>"; };
 		BDA6AF8326BAF5F400558A01 /* EcoPatrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoPatrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA6AF8626BAF5F400558A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA6AF8826BAF5F400558A01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		BDA6AF7A26BAF5F400558A01 = {
 			isa = PBXGroup;
 			children = (
+				BD24DB0226BD8CFC0047B5D7 /* fourteenthViewController.swift */,
+				BD24DB0026BD8B1A0047B5D7 /* thirteenthViewController.swift */,
 				BDA6AFCB26BCC3B400558A01 /* eighthViewController.swift */,
 				BDA6AFC926BC76E900558A01 /* seventhViewController.swift */,
 				BDA6AFC726BC742A00558A01 /* sixthViewController.swift */,
@@ -300,6 +306,7 @@
 				6D5C181526BB1EE30001E8CE /* FirstViewController.swift in Sources */,
 				BDA6AFCC26BCC3B400558A01 /* eighthViewController.swift in Sources */,
 				BDA6AFC226BBA76D00558A01 /* secondViewController.swift in Sources */,
+				BD24DB0126BD8B1A0047B5D7 /* thirteenthViewController.swift in Sources */,
 				BD24DAFF26BCF97D0047B5D7 /* twelfthViewController.swift in Sources */,
 				BDA6AF8B26BAF5F400558A01 /* ViewController.swift in Sources */,
 				BD24DAFB26BCEBFA0047B5D7 /* tenthViewController.swift in Sources */,
@@ -310,6 +317,7 @@
 				BDA6AF8926BAF5F400558A01 /* SceneDelegate.swift in Sources */,
 				BD24DAFD26BCF0020047B5D7 /* eleventhViewController.swift in Sources */,
 				BD24DAF926BCE1520047B5D7 /* ninthViewController.swift in Sources */,
+				BD24DB0326BD8CFC0047B5D7 /* fourteenthViewController.swift in Sources */,
 				BDA6AFCA26BC76E900558A01 /* seventhViewController.swift in Sources */,
 				BDA6AF9126BAF5F400558A01 /* EcoPatrol.xcdatamodeld in Sources */,
 				BDA6AFC626BC73CE00558A01 /* fifthViewController.swift in Sources */,
